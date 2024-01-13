@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/conjuring"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/conjuring"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/conjuring"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="CONJURING"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/conjuring"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="9"
+        android:text="Ketika suami istri Rod dan Carolyn menyadari bahwa keluarga mereka tengah diganggu oleh roh jahat - keduanya pun akhirnya meminta bantuan pada pasangan ahli supranatural untuk menyelidiki masalah ini."
+        />
+    <ImageView
+        android:id="@+id/jailangkung"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/jailangkung"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/jailangkung"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="JAILANGKUNG"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/jailangkung"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:maxLines="6"
+        android:text="Bella, Angel, dan Tasya berusaha menguak misteri yang terjadi pada ayah mereka yang ditemukan koma secara misterius. Mereka dibantu Rama, teman kampus Bella yang tertarik pada hal metafisik. Seorang pilot bernama Kapten Wardana membantu mereka kembali ke tempat ditemukannya Ferdi, dan mereka menemukan jailangkung, yang membuka rahasia gelap di masa lalu dan kini membahayakan nyawa mereka."
+        />
+    <ImageView
+        android:id="@+id/pengabdiansetan"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/pengabdiansetan"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pengabdiansetan"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="PENGABDIAN SETAN"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/pengabdiansetan"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="6"
+        android:text="Setelah sakit aneh selama 3 tahun, Ibu akhirnya meninggal dunia. Bapak lalu memutuskan untuk kerja di luar kota meninggalkan anak-anak. "/>
+</RelativeLayout>

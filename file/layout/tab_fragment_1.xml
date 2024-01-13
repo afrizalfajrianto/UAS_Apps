@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+
+    <ImageView
+        android:id="@+id/pertaruhan"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:src="@drawable/pertaruhan"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pertaruhan"
+        android:layout_marginStart="17dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="PERTARUHAN"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/pertaruhan"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="6"
+        android:text=" Empat bersaudara Ibra, Elzan, Amar, dan Ical berusaha mengumpulkan uang untuk biaya rumah sakit ayah mereka. Karena selalu menemui jalan buntu, mereka akhirnya mengambil keputusan yang sangat ceroboh. "/>
+    <ImageView
+        android:id="@+id/pertaruhanseries1"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/pertaruhantheseries"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pertaruhanseries1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="PERTARUHAN THE SERIES 1"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_toRightOf="@id/pertaruhanseries1"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:maxLines="6"
+        android:text="Pertaruhan The Series melanjutkan kisah persaudaraan antara Elzan (Jefri Nichol) dan Ahmad Faisal alias Ical (Giulio Parengkuan) setelah ditinggal Ibra (Adipati Dolken) yang telah berpulang.Elzan baru saja keluar dari penjara. Ia berusaha menata lagi hidupnya sambil mencari sumber penghasilan untuk keluarga sekaligus memperjuangkan rumah keluarga yang akan disita oleh bank. "/>
+    <ImageView
+        android:id="@+id/pertaruhanseries2"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/pertaruhantheseriess"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pertaruhanseries2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="PERTARUHAN THE SERIES 2"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_toRightOf="@id/pertaruhanseries2"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:maxLines="6"
+        android:text="perjalanan Elzan, Ical, serta Wulan yang harus kabur ke Yogyakarta setelah dikejar-kejar oleh banyak orang dan polisi. Elzan pun berusaha untuk lepas dari lingkaran setan kriminal."
+        />
+</RelativeLayout>
